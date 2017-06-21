@@ -10,7 +10,7 @@ public class Menu : MonoBehaviour {
 
 	public void Shop ()
 	{
-		SceneManager.LoadScene (2);
+		SceneManager.LoadScene (3);
 	}
 
 	public void Achievement ()
