@@ -13,7 +13,7 @@ EditorBuildSettings:
     guid: a58fe07f37795406780818db9a17ff00
   - enabled: 1
     path: Assets/ComingSoon.unity
-    guid: 5866ce0a5cd104fcb95aa411ae311b75
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Levels/L01.unity
     guid: 95191c5ab52494bdb858225d23e9999c
