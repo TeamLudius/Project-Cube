@@ -18,4 +18,9 @@ public class Menu : MonoBehaviour {
 		SceneManager.LoadScene (2);
 	}
 
+	public void Pause ()
+	{
+		SceneManager.LoadScene (2);
+	}
+
 }
