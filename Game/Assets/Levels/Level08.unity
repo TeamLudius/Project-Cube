@@ -276,6 +276,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114437032227783396, guid: 37b3bf677355a4989b1cae22b858c12d,
+        type: 2}
+      propertyPath: completeLevelUI
+      value: 
+      objectReference: {fileID: 1895913375}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 37b3bf677355a4989b1cae22b858c12d, type: 2}
   m_IsPrefabParent: 0
@@ -976,6 +981,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: db344e25808894f73ab8fce3199add0e, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1895913375 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1856905163711398, guid: db344e25808894f73ab8fce3199add0e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1895913374}
 --- !u!1001 &2036189990
 Prefab:
   m_ObjectHideFlags: 0

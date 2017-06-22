@@ -217,7 +217,7 @@ Prefab:
         type: 2}
       propertyPath: completeLevelUI
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1233652676}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 37b3bf677355a4989b1cae22b858c12d, type: 2}
   m_IsPrefabParent: 0
@@ -669,6 +669,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: db344e25808894f73ab8fce3199add0e, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1233652676 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1856905163711398, guid: db344e25808894f73ab8fce3199add0e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1233652675}
 --- !u!4 &1291341461 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4531563607736976, guid: 5e25755edf7051b45ae4245c033f2eff,

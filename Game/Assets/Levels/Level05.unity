@@ -562,6 +562,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: db344e25808894f73ab8fce3199add0e, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &463916043 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1856905163711398, guid: db344e25808894f73ab8fce3199add0e,
+    type: 2}
+  m_PrefabInternal: {fileID: 463916042}
 --- !u!1001 &521682062
 Prefab:
   m_ObjectHideFlags: 0
@@ -630,15 +635,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4821478841185774, guid: 37b3bf677355a4989b1cae22b858c12d, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4821478841185774, guid: 37b3bf677355a4989b1cae22b858c12d, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4821478841185774, guid: 37b3bf677355a4989b1cae22b858c12d, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4821478841185774, guid: 37b3bf677355a4989b1cae22b858c12d, type: 2}
       propertyPath: m_LocalRotation.w
@@ -652,7 +657,7 @@ Prefab:
         type: 2}
       propertyPath: completeLevelUI
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 463916043}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 37b3bf677355a4989b1cae22b858c12d, type: 2}
   m_IsPrefabParent: 0

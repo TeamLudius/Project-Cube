@@ -6,14 +6,26 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Menu.unity
+    path: Assets/Menus/Menu.unity
     guid: 63bb35c6d571e49dea8d18412b8a23ac
   - enabled: 1
-    path: Assets/LevelSelect.unity
+    path: Assets/Menus/LevelSlect.unity
+    guid: eb6aa5e0a0af5467b8caa0e02eda2fd3
+  - enabled: 1
+    path: Assets/Menus/ComingSoon.unity
+    guid: 5866ce0a5cd104fcb95aa411ae311b75
+  - enabled: 1
+    path: Assets/Menus/Pause.unity
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Menus/Easy.unity
     guid: a58fe07f37795406780818db9a17ff00
   - enabled: 1
-    path: Assets/ComingSoon.unity
-    guid: 00000000000000000000000000000000
+    path: Assets/Menus/Medium.unity
+    guid: 2cb066c2d41254930ab6065e6066308c
+  - enabled: 1
+    path: Assets/Menus/Hard.unity
+    guid: b9e87a4ac6dbc4ac38dcaf75ba0b39da
   - enabled: 1
     path: Assets/Levels/L01.unity
     guid: 95191c5ab52494bdb858225d23e9999c
@@ -39,8 +51,5 @@ EditorBuildSettings:
     path: Assets/Levels/Level08.unity
     guid: 0b6d5a7fa3cfa344fb580e234793671d
   - enabled: 1
-    path: Assets/Levels/Level09.unity
-    guid: a82abd284583b794eb250684ebeb2931
-  - enabled: 1
-    path: Assets/Credits.unity
+    path: Assets/Menus/Credits.unity
     guid: e8571bfe12e87457ba6249b76f0b3e27
