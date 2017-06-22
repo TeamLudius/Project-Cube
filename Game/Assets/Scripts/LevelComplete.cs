@@ -5,7 +5,7 @@ public class LevelComplete : MonoBehaviour {
 
 	public void LoadNextLevel () 
 	{
-		SceneManager.LoadScene (0);
+		SceneManager.LoadScene (1);
 	}
 
 }

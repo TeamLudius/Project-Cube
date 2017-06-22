@@ -410,6 +410,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1328344835}
   offset: {x: 0, y: 1, z: -5}
+--- !u!1 &365758732 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1247102488825454, guid: db344e25808894f73ab8fce3199add0e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1914871427}
 --- !u!4 &387849780 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4383057681876146, guid: 9f7c400e7529e4ec494c64200d8a8a1a,
@@ -459,6 +464,11 @@ Prefab:
       propertyPath: completeLevelUI
       value: 
       objectReference: {fileID: 1914871428}
+    - target: {fileID: 114673385822384184, guid: 05bf6811954b24ba395358a717607e7e,
+        type: 2}
+      propertyPath: pause
+      value: 
+      objectReference: {fileID: 365758732}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 05bf6811954b24ba395358a717607e7e, type: 2}
   m_IsPrefabParent: 0
@@ -745,6 +755,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   completeLevelUI: {fileID: 1914871428}
+  pause: {fileID: 365758732}
 --- !u!4 &979205954
 Transform:
   m_ObjectHideFlags: 0
@@ -1319,6 +1330,10 @@ Prefab:
     - target: {fileID: 224405132059689620, guid: db344e25808894f73ab8fce3199add0e,
         type: 2}
       propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1856905163711398, guid: db344e25808894f73ab8fce3199add0e, type: 2}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

@@ -174,6 +174,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &123897359 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1247102488825454, guid: db344e25808894f73ab8fce3199add0e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1233652675}
 --- !u!1001 &327347153
 Prefab:
   m_ObjectHideFlags: 0
@@ -218,6 +223,11 @@ Prefab:
       propertyPath: completeLevelUI
       value: 
       objectReference: {fileID: 1233652676}
+    - target: {fileID: 114437032227783396, guid: 37b3bf677355a4989b1cae22b858c12d,
+        type: 2}
+      propertyPath: pause
+      value: 
+      objectReference: {fileID: 123897359}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 37b3bf677355a4989b1cae22b858c12d, type: 2}
   m_IsPrefabParent: 0
@@ -327,6 +337,12 @@ Transform:
   m_PrefabParentObject: {fileID: 4383057681876146, guid: 5ff41417ed2344f42aa303a12984bc0d,
     type: 2}
   m_PrefabInternal: {fileID: 580956494}
+--- !u!114 &603352673 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114925695703503812, guid: db344e25808894f73ab8fce3199add0e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1233652675}
+  m_Script: {fileID: 11500000, guid: 7a2835a45397747a69d1ef465c3a9172, type: 3}
 --- !u!1001 &607407379
 Prefab:
   m_ObjectHideFlags: 0
@@ -665,6 +681,16 @@ Prefab:
     - target: {fileID: 1247102488825454, guid: db344e25808894f73ab8fce3199add0e, type: 2}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114214200361840140, guid: db344e25808894f73ab8fce3199add0e,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 603352673}
+    - target: {fileID: 114214200361840140, guid: db344e25808894f73ab8fce3199add0e,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Pause
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: db344e25808894f73ab8fce3199add0e, type: 2}

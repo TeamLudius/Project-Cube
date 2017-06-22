@@ -6,10 +6,12 @@ public class GameManager : MonoBehaviour {
 	bool gameHasEnded = false;
 
 	public GameObject completeLevelUI;
+	public GameObject pause;
 
 	public void CompleteLevel ()
 	{
 		completeLevelUI.SetActive (true);
+		pause.SetActive (false);
 	}
 
 
