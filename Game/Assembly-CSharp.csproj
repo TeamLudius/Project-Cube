@@ -56,6 +56,7 @@
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\SceneFader.cs" />
      <Compile Include="Assets\Scripts\Score.cs" />
+     <Compile Include="Assets\ShopTest.cs" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>/Users/aevar/Documents/GitHub/Project-Cube/Game/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
