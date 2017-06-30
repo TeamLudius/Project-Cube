@@ -1013,7 +1013,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294967263
 --- !u!114 &1309343100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1089,8 +1089,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Test01: {fileID: 423107415}
-  Test02: {fileID: 423107415}
-  Test03: {fileID: 423107415}
+  Test02: {fileID: 340717976}
+  Test03: {fileID: 830853301}
 --- !u!1 &1508444812
 GameObject:
   m_ObjectHideFlags: 0
@@ -1242,7 +1242,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SHOP
+  m_Text: BUY
 --- !u!222 &1690762626
 CanvasRenderer:
   m_ObjectHideFlags: 0
