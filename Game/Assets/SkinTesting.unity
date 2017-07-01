@@ -453,6 +453,10 @@ Prefab:
       propertyPath: m_Name
       value: Blackout
       objectReference: {fileID: 0}
+    - target: {fileID: 1716514268521886, guid: 03c7e380a41694d7abdd876b5303c9d1, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 03c7e380a41694d7abdd876b5303c9d1, type: 2}
   m_IsPrefabParent: 0
@@ -532,7 +536,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1716514268521886, guid: 21ca29ac036cc44bc94742d6c4e8126b, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114497514688353834, guid: 21ca29ac036cc44bc94742d6c4e8126b, type: 2}
