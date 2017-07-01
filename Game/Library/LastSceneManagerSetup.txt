@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Menus/Shop.unity
+- path: Assets/Menus/Easy.unity
   isLoaded: 1
   isActive: 1
