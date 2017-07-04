@@ -2,16 +2,27 @@
 
 public class ShopTest02 : MonoBehaviour {
 
+	public GameObject MySkins; 
 	public GameObject RedCube;
 	public GameObject RedCubeOwned;
 	public GameObject Blackout;
 	public GameObject BlackoutOwned;
 
+	public void MyLooks ()
+	{
+		MySkins.SetActive (true);
+	}
+
+	public void MyLooksOff ()
+	{
+		MySkins.SetActive (false);
+	}
+
 	void start ()
 	{
 		RedCubeOwned = GetComponent<GameObject> ();
-
 	}
+
 	public void Test ()
 	{
 		var RandomValue = Random.value;

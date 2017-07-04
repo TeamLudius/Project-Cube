@@ -3,7 +3,7 @@
 public class SkinEnable : MonoBehaviour {
 
 	void Start () {
-		if (print(PlayerPrefs.GetInt("RedCubeOwned")) == 1)
+		if (1 == 1) //(print(PlayerPrefs.GetInt("RedCubeOwned")) == 1)
 		{
 			Debug.Log ("RedCubeOwned");
 		}

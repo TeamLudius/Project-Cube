@@ -384,7 +384,7 @@ Prefab:
     - target: {fileID: 114346394533243146, guid: 4fd1596d7775648ec996db1cf325d4ac,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: MainMenu
+      value: StartGame
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4fd1596d7775648ec996db1cf325d4ac, type: 2}

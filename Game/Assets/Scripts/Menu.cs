@@ -30,7 +30,7 @@ public class Menu : MonoBehaviour {
 
 	public void Shop ()
 	{
-		SceneManager.LoadScene (2);
+		SceneManager.LoadScene (8);
 	}
 
 	public void Achievement ()
@@ -48,7 +48,7 @@ public class Menu : MonoBehaviour {
 		SceneManager.LoadScene (2);
 	}
 
-	public void MyLooks ()
+	public void StartGame ()
 	{
 		SceneManager.LoadScene (7);
 	}
