@@ -99,6 +99,8 @@
 'Assets/Scripts/SceneFader.cs'
 'Assets/Scripts/Score.cs'
 'Assets/Scripts/ShopTest02.cs'
+'Assets/ShopDisable.cs'
+'Assets/SkinRemember.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/UnityScript.dll'
