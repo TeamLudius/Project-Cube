@@ -9,7 +9,8 @@ public class OwnedSkins : MonoBehaviour {
 	public GameObject BlackoutOn;
 	public GameObject BlackoutOff;
 
-	void Update () {
+	void Update () 
+		{
 		if (RedCubeOwn.activeSelf == true) {
 			RedCubeOn.SetActive (true);
 			RedCubeOff.SetActive (false);

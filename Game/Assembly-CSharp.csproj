@@ -52,16 +52,17 @@
      <Compile Include="Assets\Scripts\LevelComplete.cs" />
      <Compile Include="Assets\Scripts\LevelSelector.cs" />
      <Compile Include="Assets\Scripts\Menu.cs" />
+     <Compile Include="Assets\Scripts\MoneyCounterUI.cs" />
      <Compile Include="Assets\Scripts\OwnedSkins.cs" />
      <Compile Include="Assets\Scripts\PlayerCollision.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\SceneFader.cs" />
      <Compile Include="Assets\Scripts\Score.cs" />
+     <Compile Include="Assets\Scripts\Shop.cs" />
      <Compile Include="Assets\Scripts\ShopDisable.cs" />
-     <Compile Include="Assets\Scripts\ShopTest02.cs" />
      <Compile Include="Assets\Scripts\SkinEnable.cs" />
      <Compile Include="Assets\Scripts\SkinRemember.cs" />
-     <Compile Include="Assets\SkinSelect.cs" />
+     <Compile Include="Assets\Scripts\SkinSelect.cs" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>/Users/aevar/Documents/GitHub/Project-Cube/Game/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>

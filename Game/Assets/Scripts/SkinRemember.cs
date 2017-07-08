@@ -9,23 +9,23 @@ public class SkinRemember : MonoBehaviour {
 		if (RedCube.activeSelf == true) 
 		{
 		//	PlayerPrefs.SetInt ("RedCubeOwned", 1);
-			Debug.Log ("RedCubeIsOwned");
+		//	Debug.Log ("RedCubeIsOwned");
 		}
 		else
 		{
 		//	PlayerPrefs.SetInt ("RedCubeOwned", 0);
-			Debug.Log ("RedCubeIsNotOwned");
+		//	Debug.Log ("RedCubeIsNotOwned");
 		}	
 
 		if (Blackout.activeSelf == true) 
 		{
 		//	PlayerPrefs.SetInt ("BlackoutOwned", 1);
-			Debug.Log ("BlackoutIsOwned");
+		//	Debug.Log ("BlackoutIsOwned");
 		}
 		else
 		{
 		//	PlayerPrefs.SetInt ("BlackoutOwned", 0);
-			Debug.Log ("BlackoutIsNotOwned");
+		//	Debug.Log ("BlackoutIsNotOwned");
 		}	
 	}
 }
