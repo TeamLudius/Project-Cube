@@ -11,13 +11,11 @@ public class Shop : MonoBehaviour {
 	public GameObject BlackoutOwned;
 	public GameObject BlackoutOwn;
 
-	[SerializeField]
-	private int StartingMoney;
-	public static int Money;
+	public int StartingMoney;
 
 	void Start ()
 	{
-		Money = StartingMoney;	
+		Coins.Money = StartingMoney;
 	}
 
 	public void MyLooks ()
@@ -39,13 +37,13 @@ public class Shop : MonoBehaviour {
 	{
 		var RandomValue = Random.value;
 
-		if (Money < 1000) {
+		if (Coins.Money < 1000) {
 			NotEnoughMoney.SetActive (true);
 			Invoke ("NoMoney", 1.5f);
 		} 
 		else 
 		{
-			Money -= 1000;
+			Coins.Money -= 1000;
 			if(RandomValue > 0 && RandomValue <= 0.5)
 			{
 				if (RedCubeOwn.activeSelf == false) {

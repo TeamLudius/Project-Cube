@@ -1,12 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ShopTest02.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Coins.cs">
     <Files>
-      <File FileName="Assets/SkinSelect.cs" Line="33" Column="16" />
-      <File FileName="Assets/Scripts/ShopTest02.cs" Line="19" Column="3" />
-      <File FileName="Assets/Scripts/SkinRemember.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/ShopDisable.cs" Line="19" Column="35" />
-      <File FileName="Assets/Scripts/Menu.cs" Line="5" Column="2" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="16" Column="3" />
+      <File FileName="Assets/Coins.cs" Line="9" Column="14" />
+      <File FileName="Assets/Scripts/Shop.cs" Line="14" Column="8" />
+      <File FileName="Assets/Scripts/MoneyCounterUI.cs" Line="18" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
