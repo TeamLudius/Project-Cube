@@ -869,6 +869,7 @@ GameObject:
   - component: {fileID: 362563601}
   - component: {fileID: 362563603}
   - component: {fileID: 362563602}
+  - component: {fileID: 362563604}
   m_Layer: 5
   m_Name: Cash
   m_TagString: Untagged
@@ -891,7 +892,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -191.83, y: 228}
+  m_AnchoredPosition: {x: -191.83002, y: 228}
   m_SizeDelta: {x: 160, y: 64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &362563602
@@ -933,6 +934,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 362563600}
+--- !u!114 &362563604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 362563600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c75c1c3b7d4942d5ac01bf879b32d08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &419526763
 GameObject:
   m_ObjectHideFlags: 0

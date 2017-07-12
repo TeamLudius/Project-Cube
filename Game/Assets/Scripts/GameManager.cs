@@ -7,11 +7,13 @@ public class GameManager : MonoBehaviour {
 
 	public GameObject completeLevelUI;
 	public GameObject pause;
+	public GameObject Money;
 
 	public void CompleteLevel ()
 	{
 		completeLevelUI.SetActive (true);
 		pause.SetActive (false);
+		Money.SetActive (false);
 	}
 		
 	public void EndGame ()

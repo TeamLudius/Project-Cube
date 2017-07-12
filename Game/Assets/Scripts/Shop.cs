@@ -15,7 +15,7 @@ public class Shop : MonoBehaviour {
 
 	void Start ()
 	{
-		Coins.Money = StartingMoney;
+		EndTrigger.Money = StartingMoney;
 	}
 
 	public void MyLooks ()
@@ -37,13 +37,13 @@ public class Shop : MonoBehaviour {
 	{
 		var RandomValue = Random.value;
 
-		if (Coins.Money < 1000) {
+		if (EndTrigger.Money < 1000) {
 			NotEnoughMoney.SetActive (true);
 			Invoke ("NoMoney", 1.5f);
 		} 
 		else 
 		{
-			Coins.Money -= 1000;
+			EndTrigger.Money -= 1000;
 			if(RandomValue > 0 && RandomValue <= 0.5)
 			{
 				if (RedCubeOwn.activeSelf == false) {

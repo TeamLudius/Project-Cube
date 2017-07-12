@@ -13,6 +13,6 @@ public class MoneyCounterUI : MonoBehaviour
 
 	void Update ()
 	{
-		moneyText.text = "$ " + Coins.Money.ToString ();
+		moneyText.text = "$ " + EndTrigger.Money.ToString ();
 	}
 }
